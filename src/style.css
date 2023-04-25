@@ -1,3 +1,60 @@
-.hello {
-  color: red;
+* {
+  font-family: 'IBM Plex Sans', sans-serif;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  padding: 1%;
+  height: 80px;
+  gap: 10%;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  font-style: normal;
+  color: #fff;
+  font-weight: 400;
+}
+
+.logoContainer {
+  width: 35%;
+  display: flex;
+  flex-direction: row;
+  height: 75px;
+  align-self: flex-end;
+  justify-content: end;
+}
+
+.logoContainer a {
+  height: 75px;
+}
+
+.navLinksContainer {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  width: 50%;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  gap: 15%;
+  align-self: center;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.nav-link {
+  font-size: 3.5vw;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
