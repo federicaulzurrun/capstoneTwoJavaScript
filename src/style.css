@@ -62,8 +62,8 @@ a {
 footer {
   display: flex;
   align-items: center;
-  position:fixed;
-  bottom:0;
+  position: fixed;
+  bottom: 0;
   border-top: 2px solid #000;
   width: 100%;
 }
