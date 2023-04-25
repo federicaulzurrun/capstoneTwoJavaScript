@@ -121,6 +121,12 @@ GitHub pages.
 - Twitter: [@ulzurrunfede](https://mobile.twitter.com/ulzurrunfede)
 - LinkedIn: [Federica Ulzurrun](https://www.linkedin.com/in/federica-ulzurrun-293a86198)
 
+👤 **Cisco**
+
+- GitHub: [@Cisco-the-wayword](https://github.com/Cisco-the-wayword)
+- Twitter: [@the_wayword1](https://twitter.com/the_wayword1)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/boluwatife-adegboyega-9397a81b3/)
+
 
 ## 🔭 Future Features <a name="future-features"></a>
 
