@@ -58,3 +58,18 @@ a {
   text-transform: uppercase;
   letter-spacing: 2px;
 }
+
+footer {
+  display: flex;
+  align-items: center;
+  position:fixed;
+  bottom:0;
+  border-top: 2px solid #000;
+  width: 100%;
+}
+
+footer p {
+  margin-left: 1rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
