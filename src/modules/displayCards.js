@@ -1,4 +1,5 @@
 import movies from './moviesApi.js';
+import countTotalMovies from './counterMovies.js';
 
 const displayMovies = async () => {
   const moviesContainer = document.getElementById('displayCards');
@@ -19,6 +20,8 @@ const displayMovies = async () => {
     </div>
   `).join('');
   moviesContainer.innerHTML = moviesHtml;
+
+  countTotalMovies();
 };
 
 export default displayMovies;
