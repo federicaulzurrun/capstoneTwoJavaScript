@@ -1,5 +1,5 @@
 import movies from './moviesApi.js';
-// import handleLike from './likes.js';
+import countTotalMovies from './counterMovies.js';
 import {
   getLikes,
   likeButtons,
@@ -25,6 +25,7 @@ const displayMovies = async () => {
   `).join('');
   moviesContainer.innerHTML = moviesHtml;
 
+  countTotalMovies();
   getLikes();
   likeButtons();
 };
