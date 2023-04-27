@@ -1,11 +1,16 @@
 import movies from './moviesApi.js';
 import countTotalMovies from './counterMovies.js';
+import {
+  getLikes,
+  likeButtons,
+} from './counterLikes.js';
+
 
 const displayMovies = async () => {
   const moviesContainer = document.getElementById('displayCards');
   const moviesData = await movies();
   const moviesHtml = moviesData.results.map((movie) => `
-    <div class="movie-card ${movie.id}">
+    <div class="movie-card" id="${movie.id}">
       <img src="https://image.tmdb.org/t/p/w500/${movie.poster_path}" class="poster">
       <div class="moviesTitle">
         <h3 class="movieTitle">${movie.title}</h3>
@@ -22,6 +27,10 @@ const displayMovies = async () => {
   moviesContainer.innerHTML = moviesHtml;
 
   countTotalMovies();
+  getLikes();
+  likeButtons();
 };
+
+// await Promise.all(promises);
 
 export default displayMovies;
