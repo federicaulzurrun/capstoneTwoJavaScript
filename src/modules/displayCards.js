@@ -30,6 +30,4 @@ const displayMovies = async () => {
   likeButtons();
 };
 
-// await Promise.all(promises);
-
 export default displayMovies;
