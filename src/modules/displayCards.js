@@ -5,7 +5,6 @@ import {
   likeButtons,
 } from './counterLikes.js';
 
-
 const displayMovies = async () => {
   const moviesContainer = document.getElementById('displayCards');
   const moviesData = await movies();
