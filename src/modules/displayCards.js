@@ -1,7 +1,6 @@
 import movies from './moviesApi.js';
 // import handleLike from './likes.js';
 import {
-  addingLikes,
   getLikes,
   likeButtons,
 } from './counterLikes.js';
@@ -26,28 +25,7 @@ const displayMovies = async () => {
   `).join('');
   moviesContainer.innerHTML = moviesHtml;
 
-  // const likeButton = document.querySelector('.like-btn');
-  // const movieContainer = document.querySelector('.movie-card');
-  // const countLikes = document.querySelector('.like-count');
-
-  // likeButton.addEventListener('click', async () => {
-  //   const selectedId = movieContainer.dataset.movieId;
-  //   let likes = await getLikes(selectedId, countLikes, handleLike);
-
-  //   if (!likeButton.classList.contains('liked')) {
-  //     likes += 1;
-  //     likeButton.classList.add('liked');
-  //   } else {
-  //     likes -= 1;
-  //     likeButton.classList.remove('liked');
-  //   }
-
-  //   countLikes.textContent = likes;
-
-  //   await likeMovie(selectedId, countLikes);
-  // });
   getLikes();
-  addingLikes();
   likeButtons();
 };
 

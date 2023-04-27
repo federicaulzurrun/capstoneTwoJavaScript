@@ -133,16 +133,14 @@ main {
   color: #fff;
   box-shadow: 2px 1px 2px #25ff00;
   width: 100%;
-  size: 100px;
 }
 
-.fa-heart::before {
-  size: 100px;
+i .fa-heart::before {
+  width: 100px;
 }
 
 .like-count {
   color: #fff;
-  size: 100px;
 }
 
 .overview {
