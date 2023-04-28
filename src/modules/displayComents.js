@@ -1,4 +1,5 @@
 /* Getting comments list from the Involvement API */
+const apiUrl = 'https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/Ir4GAcPLgchx7TvyAEZT/comments';
 const displayComments = async () => {
   const cardContainers = document.querySelectorAll('.card');
   cardContainers.forEach((card) => {
