@@ -1,7 +1,7 @@
 /* Getting comments list from the Involvement API */
 const apiUrl = 'https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/Ir4GAcPLgchx7TvyAEZT/comments';
 const displayComments = async () => {
-  const cardContainers = document.querySelectorAll('.card');
+  const cardContainers = document.querySelectorAll('.movie-id');
   cardContainers.forEach((card) => {
     const openModalBtn = card.querySelectorAll('[data-modal-target]');
     openModalBtn.forEach((btn) => {
