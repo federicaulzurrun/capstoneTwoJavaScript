@@ -1,6 +1,7 @@
 import movies from './moviesApi.js';
 import countTotalMovies from './counterMovies.js';
 import { getLikes, likeButtons } from './counterLikes.js';
+import displayComments from './displayComents.js';
 import commentsModal from './modalComments.js';
 // import addingComments from './addingComments.js';
 
@@ -60,6 +61,7 @@ const displayMovies = async () => {
   likeButtons();
 
   /* Comments PopUp */
+  displayComments();
   commentsModal();
   // addingComments();
 };
