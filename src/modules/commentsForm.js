@@ -41,9 +41,9 @@ const postComments = async () => {
           const li = document.createElement('li');
           li.innerHTML = `${comm.comment} - ${comm.creation_date} by ${comm.username}`;
           div.appendChild(li);
-        });
-        commentTitle.forEach((title) => {
-          commentsCounter(commentCounter, title);
+          commentTitle.forEach((title) => {
+            commentsCounter(commentCounter, title);
+          });
         });
       });
     });
