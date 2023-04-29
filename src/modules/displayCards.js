@@ -39,7 +39,7 @@ const displayMovies = async () => {
             <p class="popularity">Popularity: ${movie.popularity}</p>
           </div>
           <div>
-          <h2 class="comment-title"> Comments </h2>
+          <h2 class="comment-title"> Comments (0)</h2>
           </div>
           <div class="comments-container comments-list" id="comentsCont">
             <!-- comments section -->

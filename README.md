@@ -26,19 +26,19 @@
 # 📖 Capstone <a name="about-project"></a>
 
 
-**Capstone**  We created this project using a wireframe with plain JavaScript.
+**Capstone**  We created this project using API and Java Script.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-First i use HTML 5 thas it's markup languange used for structuring and presenting content on the WWW. And we add the functionality with Javascript.
+First i use HTML 5 thas it's markup languange used for structuring and presenting content on the WWW. And we add the functionality with Javascript, and consume the APIs. We finish the process adding style with CSS.
 
 
 
 ### Key Features <a name="key-features"></a>
 
-- **Page Development** : Where you can check the functionality of the page.
+- **Page Development** : Where you can check the TOP 20 movies of the moment! The content changes everyday!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -70,7 +70,7 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 ```sh
-  git clone https://github.com/federicaulzurrun/Leaderboard.git
+  git clone https://github.com/federicaulzurrun/capstoneTwoJavaScript.git
 ```
 
 ### Install
@@ -154,7 +154,7 @@ If you like this project let me know via twitter ! and i'll follow you!
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-Thanks to Microverse for allowing me to make this project
+Thanks to Microverse for allowing us to make this project and to The Movie Database API.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
