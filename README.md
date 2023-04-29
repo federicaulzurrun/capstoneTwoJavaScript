@@ -45,7 +45,7 @@ First i use HTML 5 thas it's markup languange used for structuring and presentin
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- <p> N/A </p>
+- <a href="https://melodic-daffodil-777db0.netlify.app/"> Netlify</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
