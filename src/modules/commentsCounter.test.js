@@ -8,19 +8,19 @@ describe('Test Comments Counter', () => {
   const p = document.createElement('p');
   const data = [
     {
-      comment: 'Hello Poki',
-      creation_date: '2023-04-19',
-      username: 'Mahdi',
+      comment: 'Hello',
+      creation_date: '2023-03-12',
+      username: 'Cisco',
     },
     {
-      comment: 'Hello Poki',
-      creation_date: '2023-04-19',
-      username: 'Mahdi',
+      comment: 'This looks nice!',
+      creation_date: '2019-01-05',
+      username: 'Mia',
     },
     {
-      comment: 'Nice pokemon!',
-      creation_date: '2023-04-20',
-      username: 'Hernán',
+      comment: 'I am not watching this',
+      creation_date: '2013-12-20',
+      username: 'Fede',
     },
   ];
 
