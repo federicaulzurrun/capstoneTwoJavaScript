@@ -35,10 +35,25 @@
 First i use HTML 5 thas it's markup languange used for structuring and presenting content on the WWW. And we add the functionality with Javascript, and consume the APIs. We finish the process adding style with CSS.
 
 
-
 ### Key Features <a name="key-features"></a>
 
-- **Page Development** : Where you can check the TOP 20 movies of the moment! The content changes everyday!
+- Use of linters on HTML&CSS&JavaScript project.
+- Write a correct descriptive README file.
+- Use of webpack.
+- Follow GitFlow.
+- Use of JavaScript to make websites dynamic and build basic single page apps.
+- Use of ES6 syntax.
+- Use of ES6 modules.
+- Use of callbacks and promises.
+- Apply JavaScript best practices and language style guides in code.
+- Use AAA pattern for unit tests.
+- Write units tests for a JavaScript app, and use of Jest tool for these tests..
+- Solve simple git conflicts.
+- Send and receive data from an API.
+- Use API documentation.
+- Understand and use JSON.
+- Make JavaScript code asynchronous.
+- Perform a code review for a team member.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -46,6 +61,7 @@ First i use HTML 5 thas it's markup languange used for structuring and presentin
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - <a href="https://melodic-daffodil-777db0.netlify.app/"> Netlify</a>
+- <a href="https://drive.google.com/file/d/1hI2alTwC5P7bDYU8UL8B1IHpc4rmKJho/view?usp=sharing">Project documentation Video</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
