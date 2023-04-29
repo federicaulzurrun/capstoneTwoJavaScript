@@ -69,7 +69,6 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  
 }
 
 .mainTitle {
@@ -296,22 +295,24 @@ footer {
 }
 
 @media screen and (min-width: 540px) and (max-width: 868px) {
-  .card{
+  .card {
     width: 40%;
     margin-left: 0;
     margin-right: 0;
   }
+
   .movie-card {
     width: 100%;
   }
 }
 
 @media screen and (min-width: 867px) {
-  .card{
+  .card {
     width: 27%;
     margin-left: 0;
     margin-right: 0;
   }
+
   .movie-card {
     width: 100%;
   }
